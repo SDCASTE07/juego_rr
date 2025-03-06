@@ -62,7 +62,7 @@ public class RuletaRusa {
             return true;
         } else {
             // Si no coincide, el jugador sobrevive
-            System.out.println("CLAAAAK. LA BALA NO ESTABA EN ESTA POSICION " + posicionActual + ". SIGUES VIVO PUEDES CONTINUAR EL JUEGO.");
+            System.out.println("GENIAL. LA BALA NO ESTABA EN ESTA POSICION " + posicionActual + ". SIGUES VIVO PUEDES CONTINUAR EL JUEGO.");
 
             // Avanza a la siguiente cámara (simula el giro del tambor)
             posicionActual = (posicionActual + 1) % tambor.size(); // Usa módulo para volver al inicio después de la última cámara
